@@ -3,13 +3,17 @@
 
 <suite name="Run all tests" verbose="1">
 
-  <listeners>
-    <listener class-name="framework.listeners.MyListener"/>
-  </listeners>
+<!--  <listeners>-->
+<!--    <listener class-name="framework.listeners.MyListener"/>-->
+<!--  </listeners>-->
 
-  <test name="Test #0">
+  <test name="All Tests">
     <classes>
-      <class name="ui.FooterTests"/>
+      <class name="ui.BrandsTest"/>
+      <class name="ui.CameraTest"/>
+      <class name="ui.CurrencyTest"/>
+      <class name="ui.DesktopTest"/>
+      <class name="ui.RegistrationTest"/>
     </classes>
   </test>
 
